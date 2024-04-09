@@ -1,0 +1,11 @@
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\bin\Debug\net7.0\FilmoSearch.Domain.deps.json
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\bin\Debug\net7.0\FilmoSearch.Domain.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\bin\Debug\net7.0\FilmoSearch.Domain.pdb
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\obj\Debug\net7.0\FilmoSearch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\obj\Debug\net7.0\FilmoSearch.Domain.AssemblyInfoInputs.cache
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\obj\Debug\net7.0\FilmoSearch.Domain.AssemblyInfo.cs
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\obj\Debug\net7.0\FilmoSearch.Domain.csproj.CoreCompileInputs.cache
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\obj\Debug\net7.0\FilmoSearch.Domain.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\obj\Debug\net7.0\refint\FilmoSearch.Domain.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\obj\Debug\net7.0\FilmoSearch.Domain.pdb
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Domain\obj\Debug\net7.0\ref\FilmoSearch.Domain.dll

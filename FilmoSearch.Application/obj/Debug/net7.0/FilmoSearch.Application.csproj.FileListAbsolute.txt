@@ -1,0 +1,15 @@
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\bin\Debug\net7.0\FilmoSearch.Application.deps.json
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\bin\Debug\net7.0\FilmoSearch.Application.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\bin\Debug\net7.0\FilmoSearch.Application.pdb
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\bin\Debug\net7.0\FilmoSearch.Domain.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\bin\Debug\net7.0\FilmoSearch.Domain.pdb
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSearch.Application.csproj.AssemblyReference.cache
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSearch.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSearch.Application.AssemblyInfoInputs.cache
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSearch.Application.AssemblyInfo.cs
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSearch.Application.csproj.CoreCompileInputs.cache
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSearch.Application.csproj.CopyComplete
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSearch.Application.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\refint\FilmoSearch.Application.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSearch.Application.pdb
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\ref\FilmoSearch.Application.dll

@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FilmoSearch.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:FilmoSearch.WebApi.Controllers.ActorController.Get(System.Int32)">
+            <summary>
+            Get the actor by id
+            </summary>
+            <remarks>
+            Sample request:
+            GET /actor/1
+            </remarks>
+            <param name="id">Actor id (int)</param>
+            <returns>Returns ActorDetailsVm</returns>
+            <response code="200">Success</response>
+            <response code="400">If the query is incorrect</response> 
+            <response code="401">If the user is unauthorized</response>  
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ActorController.GetAll">
+            <summary>
+            Gets the list of actors
+            </summary>
+            <remarks>
+            Sample request:
+            GET /actor
+            </remarks>
+            <returns>Returns ActorListVm</returns>
+            <response code="200">Success</response>
+            <response code="400">If the query is incorrect</response> 
+            <response code="401">If the user is unauthorized</response>   
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ActorController.Create(FilmoSearch.WebApi.Models.CreateActorDto)">
+            <summary>
+            Create the actor
+            </summary>
+            <remarks>
+            Sample request:
+            POST /actor
+            {
+                FirstName: "actor FirstName",
+                LastName: "actor LastName"
+            }
+            </remarks>
+            <returns>Returns id(int)</returns>
+            <response code="200">Success</response>
+            <response code="400">If the command is incorrect</response> 
+            <response code="401">If the user is unauthorized</response>  
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ActorController.Update(FilmoSearch.WebApi.Models.UpdateActorDto)">
+            <summary>
+            Updates the actor
+            </summary>
+            <remarks>
+            Sample request:
+            PUT /actor
+            {
+                FirstName: "updated actor FirstName"
+                LastName: "updated actor LastName"
+            }
+            </remarks>
+            <param name="updateActorDto">UpdateActorDto object</param>
+            <returns>Returns NoContent</returns>
+            <response code="204">Success</response>
+            <response code="400">If the command is incorrect</response> 
+            <response code="401">If the user is unauthorized</response>
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ActorController.Delete(System.Int32)">
+            <summary>
+            Deletes the actor by id
+            </summary>
+            <remarks>
+            Sample request:
+            DELETE /actor/1
+            </remarks>
+            <param name="id">Id of the actor (int)</param>
+            <returns>Returns NoContent</returns>
+            <response code="204">Success</response>
+            <response code="400">If the command is incorrect</response> 
+            <response code="401">If the user is unauthorized</response> 
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ActorFilmController.Add(FilmoSearch.WebApi.Models.AddFilmToActorDto)">
+            <summary>
+            Add the film to the actor by actor firstname, actor lastname and film title
+            </summary>
+            <remarks>
+            Sample request:
+            POST /ActorFilm 
+            {
+                ActorFirstName: "Actor FirstName"
+                ActorLastName: "Actor LastName"
+                FilmTitle: "Film Title"
+            }
+            </remarks>
+            <param name = "AddFilmToActorDto" > AddFilmToActorDto object</param> 
+            <returns>Returns actor id(int)</returns>
+            <response code="200">Success</response>
+            <response code="400">If the data is inacorrect</response> 
+            <response code="401">If the user is unauthorized</response> 
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ActorFilmController.Delete(FilmoSearch.WebApi.Models.DeleteFilmFromActorDto)">
+            <summary>
+            Delete the film from the actor by actor firstname, actor lastname and film title
+            </summary>
+            <remarks>
+            Sample request:
+            DELETE /ActorFilm 
+            {
+                ActorFirstName: "Actor FirstName"
+                ActorLastName: "Actor LastName"
+                FilmTitle: "Film Title"
+            }
+            </remarks>
+            <param name = "DeleteFilmFromActorDto" > DeleteFilmFromActorDto object</param> 
+            <returns>Returns actor id(int)</returns>
+            <response code="200">Success</response>
+            <response code="400">If the data is inacorrect</response> 
+            <response code="401">If the user is unauthorized</response> 
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.FilmController.Get(System.Int32)">
+            <summary>
+            Get the film by id
+            </summary>
+            <remarks>
+            Sample request:
+            GET /film/1
+            </remarks>
+            <param name="id">Film id (int)</param>
+            <returns>Returns FilmDetailsVm</returns>
+            <response code="200">Success</response>
+            <response code="400">If the query is incorrect</response>  
+            <response code="401">If the user is unauthorized</response>   
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.FilmController.GetAll">
+            <summary>
+            Gets the list of films
+            </summary>
+            <remarks>
+            Sample request:
+            GET /film
+            </remarks>
+            <returns>Returns FilmListVm</returns>
+            <response code="200">Success</response>
+            <response code="400">If the query is incorrect</response> 
+            <response code="401">If the user is unauthorized</response>   
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.FilmController.Create(FilmoSearch.WebApi.Models.CreateFilmDto)">
+            <summary>
+            Create the film
+            </summary>
+            <remarks>
+            Sample request:
+            POST /film
+            {
+                Title: "film Title", 
+            }
+            </remarks>
+            <returns>Returns id(int)</returns>
+            <response code="200">Success</response>
+            <response code="400">If the command is incorrect</response> 
+            <response code="401">If the user is unauthorized</response>  
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.FilmController.Update(FilmoSearch.WebApi.Models.UpdateFilmDto)">
+            <summary>
+            Updates the film
+            </summary>
+            <remarks>
+            Sample request:
+            PUT /film
+            {
+                Title: "film Title", 
+            }
+            </remarks>
+            <param name="updateFilmDto">UpdateFilmDto object</param>
+            <returns>Returns NoContent</returns>
+            <response code="204">Success</response>
+            <response code="400">If the command is incorrect</response> 
+            <response code="401">If the user is unauthorized</response> 
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.FilmController.Delete(System.Int32)">
+            <summary>
+            Deletes the film by id
+            </summary>
+            <remarks>
+            Sample request:
+            DELETE /film/1
+            </remarks>
+            <param name="id">Id of the film (int)</param>
+            <returns>Returns NoContent</returns>
+            <response code="204">Success</response>
+            <response code="400">If the command is incorrect</response> 
+            <response code="401">If the user is unauthorized</response> 
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ReviewController.Get(System.Int32)">
+            <summary>
+            Get the review by id
+            </summary>
+            <remarks>
+            Sample request:
+            GET /review/1
+            </remarks>
+            <param name="id">Review id (int)</param>
+            <returns>Returns ReviewDetailsVm</returns>
+            <response code="200">Success</response> 
+            <response code="400">If the query is incorrect</response> 
+            <response code="401">If the user is unauthorized</response>  
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ReviewController.GetAll">
+            <summary>
+            Gets the list of reviews
+            </summary>
+            <remarks>
+            Sample request:
+            GET /review
+            </remarks>
+            <returns>Returns ReviewListVm</returns>
+            <response code="200">Success</response> 
+            <response code="401">If the user is unauthorized</response>   
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ReviewController.Create(FilmoSearch.WebApi.Models.CreateReviewDto)">
+            <summary>
+            Create the review
+            </summary>
+            <remarks>
+            Sample request:
+            POST /review
+            {
+                Title: "review Title", 
+                Description: "review Description", 
+                Stars: "review Stars", 
+                FilmId: "film FilmId", 
+            }
+            </remarks>
+            <returns>Returns id(int)</returns>
+            <response code="200">Success</response>
+            <response code="400">If the command is incorrect</response> 
+            <response code="401">If the user is unauthorized</response>  
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ReviewController.Update(FilmoSearch.WebApi.Models.UpdateReviewDto)">
+            <summary>
+            Updates the review
+            </summary>
+            <remarks>
+            Sample request:
+            PUT /review
+            {
+                Title: "review Title", 
+                Description: "review Description", 
+                Stars: "review Stars", 
+                FilmId: "film FilmId", 
+            }
+            </remarks>
+            <param name="updateReviewDto">UpdateReviewDto object</param>
+            <returns>Returns NoContent</returns>
+            <response code="204">Success</response>
+            <response code="400">If the command is incorrect</response> 
+            <response code="401">If the user is unauthorized</response> 
+        </member>
+        <member name="M:FilmoSearch.WebApi.Controllers.ReviewController.Delete(System.Int32)">
+            <summary>
+            Deletes the review by id
+            </summary>
+            <remarks>
+            Sample request:
+            DELETE /review/1
+            </remarks>
+            <param name="id">Id of the review(int)</param>
+            <returns>Returns NoContent</returns>
+            <response code="204">Success</response>
+            <response code="400">If the command is incorrect</response> 
+            <response code="401">If the user is unauthorized</response> 
+        </member>
+    </members>
+</doc>
