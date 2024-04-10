@@ -1,6 +1,6 @@
 <h1 align="center">FilmoSearch</h1>
 
-Scalable, easily supported Web API project made using good practices on ASP.NET 7 and . NET 7 with React
+Scalable, easily supported Web API project made using good practices on ASP.NET 7 and . NET 7 with React and IdentityServer4
 
 ![image](https://github.com/Raiver103/FilmoSearch/assets/80199038/9d44b4f9-f449-4e20-8734-f88c8a66ca3c)
  
