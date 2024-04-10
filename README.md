@@ -19,8 +19,7 @@ My application demonstrates CRUD operations with Many-to-Many and One-to-Many re
 * Fluent Validation
 * Automapper
 * Clean architecture
-* MediatR
-* CQRS
+* MediatR + CQRS 
 * Many-to-Many relations
 * Dependency Injection
 * Exception Middleware
