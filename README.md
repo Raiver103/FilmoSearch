@@ -6,7 +6,7 @@ Scalable, easily supported Web API project made using good practices on ASP.NET 
  
 ![image](https://github.com/Raiver103/FilmoSearch/assets/80199038/af6bd2ac-8e83-4a30-b4e6-57f4ce02b7da)
 
-My application demonstrates CRUD operations with Many-to-Many and One-to-Many relations and authentication
+My application demonstrates authentication and CRUD operations with Many-to-Many and One-to-Many relations
 
 # Technical tools 
 * ASP NET Core 7
