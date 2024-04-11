@@ -43,6 +43,15 @@ My application demonstrates authentication and CRUD operations with Many-to-Many
 * An actor can play roles in several films;
 * Multiple reviews can be placed for one film;
 
-# Project setup
-* FilmoSearch.sln -> start FilmoSearch.WebApi and FilmoSearch.Identity - backend
+# Prerequisites
+* Install Visual Studio
+    * During installation, ensure that the following are selected:
+        * ASP.NET and web development.
+        * Node.js development.
+        * .NET desktop development.
+* Install .NET 7 SDK
+* Install IIS Server
+
+# Running the solution
+* FilmoSearch.sln -> run FilmoSearch.WebApi and FilmoSearch.Identity - backend
 * filmosearch.frontend -> npm start - frontend
