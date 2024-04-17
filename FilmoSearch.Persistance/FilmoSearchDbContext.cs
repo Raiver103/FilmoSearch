@@ -12,7 +12,7 @@ namespace FilmoSearch.Persistance
         public DbSet<Film> Films { get; set; }
         public DbSet<Actor> Actors { get; set; }
         public DbSet<Review> Reviews { get; set; }
-        public DbSet<ActorFilm> ActorFilms { get; set; }
+        public DbSet<ActorFilm> ActorFilm { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {  

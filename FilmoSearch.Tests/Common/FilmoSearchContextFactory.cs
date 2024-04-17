@@ -125,7 +125,7 @@ namespace FilmoSearch.Tests.Common
                 Actor = actor,
                 Film = film,
             };
-            context.ActorFilms.Add(actorFilm);
+            context.ActorFilm.Add(actorFilm);
 
             context.SaveChanges();
             return context;

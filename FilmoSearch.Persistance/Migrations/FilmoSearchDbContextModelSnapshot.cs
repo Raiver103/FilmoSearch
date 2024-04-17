@@ -54,7 +54,7 @@ namespace FilmoSearch.Persistance.Migrations
 
                     b.HasIndex("ActorId");
 
-                    b.ToTable("ActorFilms");
+                    b.ToTable("ActorFilm");
                 });
 
             modelBuilder.Entity("FilmoSearch.Domain.Film", b =>

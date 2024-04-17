@@ -29,7 +29,7 @@ namespace FilmoSearch.Application.ActorFilm.Commands.DeleteFilmFromActor
                 throw new NotFoundException(nameof(ActorFilm), request.FilmTitle);
             }
 
-            var deleteActorFilm = await _dbContext.ActorFilms.FirstOrDefaultAsync(af =>
+            var deleteActorFilm = await _dbContext.ActorFilm.FirstOrDefaultAsync(af =>
             af.Film == film && af.FilmId == film.Id && af.Actor == actor && af.ActorId == actor.Id, cancellationToken);
 
             if (deleteActorFilm == null)
@@ -37,7 +37,7 @@ namespace FilmoSearch.Application.ActorFilm.Commands.DeleteFilmFromActor
                 throw new NotFoundException(nameof(FilmoSearch.Domain.ActorFilm), request.ActorFirstName);
             }
 
-            _dbContext.ActorFilms.Remove(deleteActorFilm);
+            _dbContext.ActorFilm.Remove(deleteActorFilm);
             await _dbContext.SaveChangesAsync(cancellationToken);
 
             return actor.Id;

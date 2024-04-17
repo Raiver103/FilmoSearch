@@ -37,7 +37,7 @@ namespace FilmoSearch.Application.ActorFilm.Commands.AddFilmToActor
                 Film = film
             }; 
 
-            await _dbContext.ActorFilms.AddAsync(actorFilm, cancellationToken);
+            await _dbContext.ActorFilm.AddAsync(actorFilm, cancellationToken);
             await _dbContext.SaveChangesAsync(cancellationToken);
 
             return actorFilm.ActorId; 
