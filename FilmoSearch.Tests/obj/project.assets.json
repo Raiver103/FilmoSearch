@@ -10153,7 +10153,6 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "FilmoSearch.Application >= 1.0.0",
       "FilmoSearch.Persistance >= 1.0.0",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.17",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
@@ -10190,9 +10189,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\projects\\asp.net\\FilmoSearch\\FilmoSearch.Application\\FilmoSearch.Application.csproj": {
-              "projectPath": "D:\\projects\\asp.net\\FilmoSearch\\FilmoSearch.Application\\FilmoSearch.Application.csproj"
-            },
             "D:\\projects\\asp.net\\FilmoSearch\\FilmoSearch.Persistance\\FilmoSearch.Persistance.csproj": {
               "projectPath": "D:\\projects\\asp.net\\FilmoSearch\\FilmoSearch.Persistance\\FilmoSearch.Persistance.csproj"
             }

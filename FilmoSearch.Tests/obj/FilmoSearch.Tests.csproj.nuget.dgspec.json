@@ -253,9 +253,6 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\projects\\asp.net\\FilmoSearch\\FilmoSearch.Application\\FilmoSearch.Application.csproj": {
-                "projectPath": "D:\\projects\\asp.net\\FilmoSearch\\FilmoSearch.Application\\FilmoSearch.Application.csproj"
-              },
               "D:\\projects\\asp.net\\FilmoSearch\\FilmoSearch.Persistance\\FilmoSearch.Persistance.csproj": {
                 "projectPath": "D:\\projects\\asp.net\\FilmoSearch\\FilmoSearch.Persistance\\FilmoSearch.Persistance.csproj"
               }

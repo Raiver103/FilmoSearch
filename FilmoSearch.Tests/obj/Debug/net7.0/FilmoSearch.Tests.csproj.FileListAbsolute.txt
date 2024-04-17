@@ -260,3 +260,4 @@ D:\projects\asp.net\FilmoSearch\FilmoSearch.Tests\bin\Debug\net7.0\Microsoft.Net
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Tests\bin\Debug\net7.0\System.IO.Pipelines.dll
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Tests\bin\Debug\net7.0\runtimes\win-x64\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Tests\bin\Debug\net7.0\runtimes\win-x86\nativeassets\netcoreapp2.2\aspnetcorev2_inprocess.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Tests\obj\Debug\net7.0\FilmoSearch.Tests.sourcelink.json

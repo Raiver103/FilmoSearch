@@ -17,3 +17,4 @@ D:\projects\asp.net\FilmoSearch\FilmoSearch.Persistance\obj\Debug\net7.0\FilmoSe
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Persistance\obj\Debug\net7.0\ref\FilmoSearch.Persistance.dll
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Persistance\bin\Debug\net7.0\FilmoSearch.Persistance.runtimeconfig.json
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Persistance\obj\Debug\net7.0\FilmoSearch.Persistance.genruntimeconfig.cache
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Persistance\obj\Debug\net7.0\FilmoSearch.Persistance.sourcelink.json

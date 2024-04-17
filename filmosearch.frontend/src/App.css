@@ -80,7 +80,7 @@
  .block{
   background-color: #ebdfdf;
   border: 1px solid #000;
-  margin: 150px;
+  margin: 100px;
   padding: 10px;
  }
 
@@ -92,5 +92,5 @@
  }
 
  .details{
-  background-color: #78dbc2;
+  background-color: #78dbc2; 
  }

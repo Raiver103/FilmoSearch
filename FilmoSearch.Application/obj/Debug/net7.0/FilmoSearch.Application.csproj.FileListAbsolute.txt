@@ -13,3 +13,4 @@ D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSe
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\refint\FilmoSearch.Application.dll
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSearch.Application.pdb
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\ref\FilmoSearch.Application.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Application\obj\Debug\net7.0\FilmoSearch.Application.sourcelink.json

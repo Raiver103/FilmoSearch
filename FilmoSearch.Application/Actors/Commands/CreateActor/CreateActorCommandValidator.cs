@@ -4,7 +4,7 @@ namespace FilmoSearch.Application.Actors.Commands.CreateActor
 {
     public class CreateActorCommandValidator : AbstractValidator<CreateActorCommand>
     {
-        public CreateActorCommandValidator()
+        public CreateActorCommandValidator() 
         {
             RuleFor(createActorCommand =>
                 createActorCommand.FirstName).NotEmpty().MaximumLength(250);

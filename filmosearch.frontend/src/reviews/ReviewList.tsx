@@ -29,8 +29,7 @@ const ReviewList: FC<{}> = (): ReactElement => {
         console.log('Review is updated.');
         setTimeout(getReviews, 100);
     }
-
-
+     
     async function getReviews() {
         const filmListVm = await apiClient.getAll3('1.0');
         setReviews(filmListVm.reviews);
