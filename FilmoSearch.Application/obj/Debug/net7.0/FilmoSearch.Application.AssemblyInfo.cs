@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmoSearch.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04d6d5d0b15b935f5bc27e66a4bccb75d435b32a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6b4d491ecc56684c826d152aff2ec9913c55d8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmoSearch.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmoSearch.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
