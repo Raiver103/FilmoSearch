@@ -77,9 +77,8 @@ namespace FilmoSearch.WebApi.Controllers
         /// GET /review
         /// </remarks>
         /// <returns>Returns ReviewListVm</returns>
-        /// <response code="200">Success</response> 
-        /// <response code="401">If the user is unauthorized</response>   
-        [Authorize]
+        /// <response code="200">Success</response>  
+        /// <response code="401">If the user is unauthorized</response>    
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)] 
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]

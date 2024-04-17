@@ -75,13 +75,10 @@ namespace FilmoSearch.WebApi.Controllers
         /// GET /film
         /// </remarks>
         /// <returns>Returns FilmListVm</returns>
-        /// <response code="200">Success</response>
-        /// <response code="400">If the query is incorrect</response> 
-        /// <response code="401">If the user is unauthorized</response>   
-        [Authorize]
+        /// <response code="200">Success</response> 
+        /// <response code="401">If the user is unauthorized</response>    
         [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status200OK)] 
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<FilmListVm>> GetAll()
         {

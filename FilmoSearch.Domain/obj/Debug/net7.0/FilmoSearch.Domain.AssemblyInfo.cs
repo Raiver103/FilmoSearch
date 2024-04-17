@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmoSearch.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d5cfbb356da8b2a86d08504521fa0ce132ab26f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmoSearch.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmoSearch.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

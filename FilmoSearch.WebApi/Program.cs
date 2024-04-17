@@ -86,6 +86,7 @@ app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseApiVersioning();
+
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
