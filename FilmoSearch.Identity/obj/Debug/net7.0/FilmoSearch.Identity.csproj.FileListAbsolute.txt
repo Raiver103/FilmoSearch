@@ -85,3 +85,9 @@ D:\projects\asp.net\FilmoSearch\FilmoSearch.Identity\bin\Debug\net7.0\Swashbuckl
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Identity\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Identity\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\projects\asp.net\FilmoSearch\FilmoSearch.Identity\obj\Debug\net7.0\FilmoSearch.Identity.MvcApplicationPartsAssemblyInfo.cs
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Identity\bin\Debug\net7.0\Humanizer.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Identity\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Identity\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Identity\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Identity\bin\Debug\net7.0\System.CodeDom.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.Identity\obj\Debug\net7.0\FilmoSearch.Identity.sourcelink.json
