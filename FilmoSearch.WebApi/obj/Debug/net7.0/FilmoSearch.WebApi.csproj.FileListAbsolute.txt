@@ -96,3 +96,4 @@ D:\projects\asp.net\FilmoSearch\FilmoSearch.WebApi\bin\Debug\net7.0\FluentValida
 D:\projects\asp.net\FilmoSearch\FilmoSearch.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
 D:\projects\asp.net\FilmoSearch\FilmoSearch.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
 D:\projects\asp.net\FilmoSearch\FilmoSearch.WebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\projects\asp.net\FilmoSearch\FilmoSearch.WebApi\obj\Debug\net7.0\FilmoSearch.WebApi.sourcelink.json

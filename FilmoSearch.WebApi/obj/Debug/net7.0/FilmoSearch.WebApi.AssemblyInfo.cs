@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmoSearch.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0fb7076d7c0325b260761dcd84e7e391d3d35f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmoSearch.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmoSearch.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

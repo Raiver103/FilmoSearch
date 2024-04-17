@@ -23,7 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FilmoSearch.Application\FilmoSearch.Application.csproj" />
     <ProjectReference Include="..\FilmoSearch.Persistance\FilmoSearch.Persistance.csproj" />
   </ItemGroup>
 
