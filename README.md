@@ -9,8 +9,7 @@ Scalable, easily supported Web API project made using good practices on ASP.NET 
 My application demonstrates authentication and CRUD operations with Many-to-Many and One-to-Many relations
 
 # Technical tools 
-* ASP NET Core 7
-* .NET 7
+* ASP NET Core 7 
 * MS SQL Server
 * EF Core 7
 * React app (typescript template)
@@ -19,9 +18,7 @@ My application demonstrates authentication and CRUD operations with Many-to-Many
 * Fluent Validation
 * Automapper
 * Clean architecture
-* MediatR + CQRS 
-* Many-to-Many relations
-* Dependency Injection
+* MediatR + CQRS  
 * Exception Middleware
 * Swagger
 * NSwag Studio
@@ -30,13 +27,7 @@ My application demonstrates authentication and CRUD operations with Many-to-Many
 * Film (Id, Title);
 * Actor (Id, FirstName, LastName);
 * Review (Id, Title, Description, Stars);
-* ActorFilm (ActorId, Actor, FilmId, Film);
-
-# Endpoints
-* Film CRUD op.;
-* Actor CRUD op.;
-* Review CRUD op.;
-* ActorFilm Add and Remove op.;
+* ActorFilm (ActorId, Actor, FilmId, Film); 
 
 # Relationships
 * Several actors can play a role in one film;
