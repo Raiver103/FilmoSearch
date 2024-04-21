@@ -16,12 +16,18 @@ My application demonstrates authentication and CRUD operations with Many-to-Many
 * IdentityServer4
 * XUnit
 * Fluent Validation
-* Automapper
-* Clean architecture
-* MediatR + CQRS  
+* Automapper 
 * Exception Middleware
 * Swagger
 * NSwag Studio
+
+# Architecture
+* Clean Architecture
+* CQRS
+* MediatR
+
+# Features
+* Versioning
 
 # Models
 * Film (Id, Title);
