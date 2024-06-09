@@ -16,9 +16,7 @@ My application demonstrates authentication and CRUD operations with Many-to-Many
 * IdentityServer4
 * XUnit
 * Fluent Validation
-* Automapper 
-* Exception Middleware
-* Swagger
+* Automapper  
 * NSwag Studio
 
 # Architecture
@@ -28,18 +26,7 @@ My application demonstrates authentication and CRUD operations with Many-to-Many
 
 # Features
 * Versioning
-
-# Models
-* Film (Id, Title);
-* Actor (Id, FirstName, LastName);
-* Review (Id, Title, Description, Stars);
-* ActorFilm (ActorId, Actor, FilmId, Film); 
-
-# Relationships
-* Several actors can play a role in one film;
-* An actor can play roles in several films;
-* Multiple reviews can be placed for one film;
-
+ 
 # Prerequisites
 * Install Visual Studio
     * During installation, ensure that the following are selected:
